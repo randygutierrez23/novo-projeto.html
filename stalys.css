@@ -1,0 +1,129 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 32px 0 47px 42px;
+}
+
+.linK-header {
+    font-weight: 20px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #070c17;
+    margin-left: 50px;
+    cursor: grabbing;
+}
+
+
+.button-header {
+    background: #6fBf44;
+    border-radius: 20.5px;
+    width: 124px;
+    height: 51px;
+    font-weight: 500px;
+    font-size: 16px;
+    margin-left: 23px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.logo-img {
+    width: 583.83px;
+    height: 466.9px;
+    margin-left: 120px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+}
+
+h1 {
+    line-height: 82px;
+    font-weight: 400px;
+    font-size: 50px;
+    color: #ca0b9ea3;
+    margin-left: 70px
+}
+
+
+
+p {
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4d505a;
+    width: 400px;
+    margin-left: 81px;
+}
+
+.button-main {
+    background: #6fbf44;
+    width: 130px;
+    height: 50px;
+    font-weight: 300px;
+    font-size: 20;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 20.5px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 856px) {
+    
+    header {display: inline-block; padding: 0px; margin-left: 2px; }
+
+
+.linK-header{margin-left: 4px;}
+
+
+    .button-header {
+        width: 95px;
+        height: 35px;
+        font-size: 15;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    selection {
+    display: inline-block;
+    padding: 0px ; margin: 0px;
+    }
+
+    .logo-img {
+
+        width: 322.83px;
+        height: 388.9px;
+        display: block;
+        margin-left: 5px;
+    }
+
+    h1 {
+        line-height: 43px;
+        margin-top: 60px;
+        margin-left:2px;
+    }
+
+    p {
+        margin-top: 16px;
+        line-height: 25px;
+        margin-left: 2px;
+        padding: 0px;}
+
+    .button-main{
+        margin-left:2px;
+    }
+
+}
